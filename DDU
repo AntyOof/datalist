@@ -1,1 +1,40 @@
-
+[
+  {
+    "number":0,
+    "route":"NIS",
+    "destZ":"暫停服務",
+    "destY":"暫停服務",
+    "maxPZ":"1",
+    "priceZ1":"0.0",
+    "halfpriceZ1":"0.0",
+    "maxPY":"1",
+    "priceY1":"0.0",
+    "halfpriceY1":"0.0"
+  },
+  {
+    "number":1,
+    "route":"1",
+    "destZ":"暫停",
+    "destY":"服務",
+    "maxPZ":"2",
+    "priceZ1":"5.0",
+    "halfpriceZ1":"2.5",
+    "priceZ2":"2.0",
+    "halfpriceZ2":"1.0",
+    "maxPY":"1",
+    "priceY1":"0.0",
+    "halfpriceY1":"0.0"
+  },
+  {
+    "number":2,
+    "route":"2",
+    "destZ":"暫服務",
+    "destY":"暫停務",
+    "maxPZ":"1",
+    "priceZ1":"0.0",
+    "halfpriceZ1":"0.0",
+    "maxPY":"1",
+    "priceY1":"0.0",
+    "halfpriceY1":"0.0"
+  }
+]
