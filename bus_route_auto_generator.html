@@ -622,15 +622,15 @@
                 const destCode = findLocationCode(destTc, codes);
                 const origCode = findLocationCode(origTc, codes);
 
-                const destZ = destCode ? destCode + ' ' + destTc : destTc;
-                const destY = origCode ? origCode + ' ' + origTc : origTc;
+                const destY = destCode ? destCode + ' ' + destTc : destTc;
+                const destZ = origCode ? origCode + ' ' + origTc : origTc;
 
-                let faresZ = [];
                 let faresY = [];
+                let faresZ = [];
 
                 if (fareMap[routeNum]) {
-                    faresZ = fareMap[routeNum]['O'] || [];
-                    faresY = fareMap[routeNum]['I'] || [];
+                    faresY = fareMap[routeNum]['O'] || [];
+                    faresZ = fareMap[routeNum]['I'] || [];
                 }
 
                 const entry = {
